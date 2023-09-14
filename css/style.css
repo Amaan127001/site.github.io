@@ -292,4 +292,7 @@ body{
     .paras{
         padding: 0px 1px;
     }
+    .cright{
+        font-size: 0.7rem;
+    }
 }
