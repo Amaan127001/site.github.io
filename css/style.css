@@ -9,7 +9,7 @@ html{
 }
 
 body{
-    background-color: grey;
+    background-color: rgb(210, 201, 201);
 }
 
 .logo{
@@ -57,7 +57,7 @@ body{
 }
 
 .nav-list li a:hover{
-    text-decoration: none;
+    text-decoration: underline white;
     color: grey;
 }
 
@@ -71,6 +71,7 @@ body{
 }
 
 #search{
+    width: 250px;
     padding: 4px;
     font: 18px;
     border: 2px solid grey;
@@ -79,7 +80,7 @@ body{
 }
 
 .btn-sm i{
-    height: 23.2px;
+    height: 25px;
     width: 45px;
     display: flex;
     justify-content: center;
@@ -87,6 +88,11 @@ body{
     font-size: 1.2rem;
     background-color: grey;
     color: #0f1111;
+}
+
+.btn-sm i:hover{
+    background-color: green;
+    color: white;
 }
 
 .btn-sm {
@@ -103,6 +109,21 @@ body{
 
 .firstSection{
     height: 120vh;
+}
+
+.btn:hover{
+    background-color: grey;
+    color: black;
+}
+
+.in{
+    font-size: large;
+    text-decoration: none;
+    color: maroon;
+}
+
+.in:hover{
+    text-decoration: underline black;
 }
 
 .box-main{
